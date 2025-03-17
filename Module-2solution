@@ -1,0 +1,17 @@
+.section {
+  position: relative;
+  padding: 20px; /* Add padding to give space for the title */
+  margin-bottom: 20px; /* Adjust spacing between sections */
+  border: 1px solid black; /* Black border around the section */
+}
+
+.section-title {
+  position: absolute;
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right edge */
+  background-color: #ffcc00; /* Example background color */
+  padding: 5px 10px; /* Adjust padding for the title */
+  border: 1px solid black; /* Black border around the title */
+  font-size: 18px; /* Adjust font size */
+  font-weight: bold; /* Make the title bold */
+}
